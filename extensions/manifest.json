@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Youtube Viewd Filter Extension",
-  "version": "0.0.10",
+  "version": "0.0.19",
   "description": "Extension to filter viewed videos on youtube",
   "content_scripts": [
     {
@@ -16,9 +16,13 @@
       ]
     }
   ],
+  "action": {
+    "default_title": "Youtube Viewd Filter Extension"
+  },
   "permissions": [
     "tabs",
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "host_permissions": [
     "https://www.youtube.com/"
