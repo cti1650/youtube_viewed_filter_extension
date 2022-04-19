@@ -1,0 +1,3 @@
+#playlist-items:has(div#progress[style*="width: 100%"]) {
+  display: none;
+}
